@@ -1,0 +1,111 @@
+/**
+ * Advanced Post Duplicator Admin Styles
+ */
+
+/* Settings Page Styles */
+.apd-offset-fields {
+	margin-top: 10px;
+	padding: 10px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.apd-offset-fields input[type="number"] {
+	width: 60px;
+	margin-right: 5px;
+}
+
+.apd-offset-fields label {
+	margin-right: 15px;
+	font-weight: normal;
+}
+
+.apd-offset-fields select {
+	margin-left: 10px;
+}
+
+/* Classic Editor Button */
+.apd-duplicate-button {
+	margin-left: 10px !important;
+}
+
+.apd-duplicate-link-wrapper {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.apd-duplicate-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #2271b1;
+}
+
+.apd-duplicate-link:hover {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+/* Block Editor Styles */
+.apd-block-editor-duplicate {
+	margin-top: 0;
+	color: #2271b1;
+	text-decoration: none;
+}
+
+.apd-block-editor-duplicate:hover {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+.apd-duplicate-status-info {
+	border-top: 1px solid #ddd;
+	padding-top: 8px;
+	margin-top: 8px;
+}
+
+/* Row Actions Color */
+.row-actions .apd_duplicate a {
+	color: #d63638;
+}
+
+.row-actions .apd_duplicate a:hover {
+	color: #a00;
+}
+
+/* Publish Metabox Duplicate Button */
+.apd-duplicate-section {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.apd-duplicate-publish-button {
+	text-decoration: none;
+	color: #2271b1;
+	font-weight: 500;
+	display: inline-block;
+	padding: 2px 0;
+}
+
+.apd-duplicate-publish-button:hover {
+	color: #135e96;
+	text-decoration: underline;
+}
+
+.apd-duplicate-section .dashicons {
+	color: #646970;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+/* Settings Page Form Table */
+.form-table .apd-offset-fields p {
+	margin: 0;
+}
+
+.form-table .apd-offset-fields input[type="number"] {
+	vertical-align: middle;
+}
+

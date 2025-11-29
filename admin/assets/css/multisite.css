@@ -1,0 +1,96 @@
+/**
+ * Multisite Cross-Site Duplication Styles
+ */
+
+.apd-cross-site-duplication {
+	margin-top: 20px;
+}
+
+.apd-posts-list {
+	border: 1px solid #ddd;
+	padding: 10px;
+	max-height: 400px;
+	overflow-y: auto;
+	background: #fff;
+}
+
+.apd-posts-list-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.apd-posts-list-items li {
+	padding: 8px;
+	border-bottom: 1px solid #eee;
+}
+
+.apd-posts-list-items li:last-child {
+	border-bottom: none;
+}
+
+.apd-posts-list-items label {
+	cursor: pointer;
+	display: block;
+}
+
+.apd-posts-list-items input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+.apd-posts-list-items .description {
+	color: #666;
+	font-size: 12px;
+	margin-left: 8px;
+}
+
+.apd-pagination {
+	margin-top: 10px;
+}
+
+.apd-pagination a {
+	margin: 0 5px;
+}
+
+#apd-duplication-results {
+	margin-top: 20px;
+}
+
+#apd-duplication-results .notice {
+	margin: 10px 0;
+}
+
+#apd-duplication-results ul {
+	margin-left: 20px;
+}
+
+#apd-logs-container {
+	margin-top: 15px;
+}
+
+#apd-logs-container table {
+	margin-top: 10px;
+}
+
+#apd-logs-container tr.success td {
+	background-color: #d4edda;
+}
+
+#apd-logs-container tr.error td {
+	background-color: #f8d7da;
+}
+
+.apd-cross-site-duplication .spinner {
+	float: none;
+	margin-left: 10px;
+	visibility: hidden;
+}
+
+.apd-cross-site-duplication .spinner.is-active {
+	visibility: visible;
+}
+
+.apd-cross-site-duplication .form-table th {
+	width: 200px;
+}
+
